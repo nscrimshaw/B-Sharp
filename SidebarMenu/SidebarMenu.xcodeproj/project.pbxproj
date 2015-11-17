@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1B70BB1BFBC2CD00DCF392 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B70BA1BFBC2CD00DCF392 /* HelpViewController.swift */; };
 		BE9DF6441BFA5F6F00CADCE3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9DF6431BFA5F6F00CADCE3 /* SWRevealViewController.m */; };
 		F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47029F51A7F27DB00E30A3C /* AppDelegate.swift */; };
 		F47029FB1A7F27DB00E30A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47029F91A7F27DB00E30A3C /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE1B70BA1BFBC2CD00DCF392 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		BE9DF6411BFA5F6E00CADCE3 /* SidebarMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu-Bridging-Header.h"; sourceTree = "<group>"; };
 		BE9DF6421BFA5F6F00CADCE3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
 		BE9DF6431BFA5F6F00CADCE3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				F491E7491A7F4B300026528E /* NewsTableViewController.swift */,
 				F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */,
 				F491E7521A7F7DF20026528E /* MapViewController.swift */,
+				BE1B70BA1BFBC2CD00DCF392 /* HelpViewController.swift */,
 				F491E7541A7F7E010026528E /* PhotoViewController.swift */,
 			);
 			path = SidebarMenu;
@@ -252,6 +255,7 @@
 				BE9DF6441BFA5F6F00CADCE3 /* SWRevealViewController.m in Sources */,
 				F4702A181A7F351C00E30A3C /* MenuController.swift in Sources */,
 				F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */,
+				BE1B70BB1BFBC2CD00DCF392 /* HelpViewController.swift in Sources */,
 				F491E74C1A7F4C630026528E /* NewsTableViewCell.swift in Sources */,
 				F491E7531A7F7DF20026528E /* MapViewController.swift in Sources */,
 				F491E74A1A7F4B300026528E /* NewsTableViewController.swift in Sources */,
