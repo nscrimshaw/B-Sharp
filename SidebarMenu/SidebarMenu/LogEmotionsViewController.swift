@@ -8,9 +8,27 @@
 
 import UIKit
 
-class MapViewController: UIViewController {
+
+//we are going to remove this and probably delete the log emotions screen more generally, but we'll keep this for the time being as a sample alert implementation.
+class LogEmotionsViewController: UIViewController{
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
+    @IBAction func Practice(sender: UIBarButtonItem) {
+            let alertController = UIAlertController(title: "alert", message: "Emotions?", preferredStyle: .Alert)
+        
+        let yesAction = UIAlertAction(title: "Yes", style: .Default) { (action) -> Void in
+            print("Yes !")
+        }
+        let noAction = UIAlertAction(title: "No", style: .Default) { (action) -> Void in
+            print("No !")
+    
+        }
+        
+        alertController.addAction(yesAction)
+        alertController.addAction(noAction)
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
