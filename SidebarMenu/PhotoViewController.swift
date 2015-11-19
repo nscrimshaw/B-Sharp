@@ -8,10 +8,9 @@
 
 import UIKit
 
-class PhotoViewController: UIViewController, UITextFieldDelegate {
+class PhotoViewController: UIViewController{
     @IBOutlet weak var menuButton:UIBarButtonItem!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var goalField: UITextField!
     
     
     override func viewDidLoad() {
