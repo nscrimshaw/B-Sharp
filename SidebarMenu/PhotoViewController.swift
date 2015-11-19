@@ -22,7 +22,7 @@ class PhotoViewController: UIViewController{
             // transition to start practice screen
         } else{ // odd
             // take away highlight of button
-            // transition to end practice screen (not sure how screen branching works).. 
+            // transition to end practice screen (not sure how screen branching works)..
         }
         
     }
