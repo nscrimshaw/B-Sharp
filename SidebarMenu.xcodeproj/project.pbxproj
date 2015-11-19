@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A533196D1BFE63C1000B8CDE /* RevealViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533196C1BFE63C1000B8CDE /* RevealViewControllerBridge.swift */; };
 		A581D1DF1BFDE2B300545C72 /* LogEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581D1DE1BFDE2B300545C72 /* LogEmotionsViewController.swift */; };
 		A581D1E11BFDED3700545C72 /* ChooseEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581D1E01BFDED3700545C72 /* ChooseEmotionsViewController.swift */; };
 		F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47029F51A7F27DB00E30A3C /* AppDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A533196C1BFE63C1000B8CDE /* RevealViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealViewControllerBridge.swift; sourceTree = "<group>"; };
 		A581D1DE1BFDE2B300545C72 /* LogEmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEmotionsViewController.swift; sourceTree = "<group>"; };
 		A581D1E01BFDED3700545C72 /* ChooseEmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseEmotionsViewController.swift; path = ../ChooseEmotionsViewController.swift; sourceTree = "<group>"; };
 		F47029F01A7F27DB00E30A3C /* SidebarMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */,
 				F491E7521A7F7DF20026528E /* MapViewController.swift */,
 				F491E7541A7F7E010026528E /* PhotoViewController.swift */,
+				A533196C1BFE63C1000B8CDE /* RevealViewControllerBridge.swift */,
 				A581D1DE1BFDE2B300545C72 /* LogEmotionsViewController.swift */,
 				A581D1E01BFDED3700545C72 /* ChooseEmotionsViewController.swift */,
 			);
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A533196D1BFE63C1000B8CDE /* RevealViewControllerBridge.swift in Sources */,
 				A581D1E11BFDED3700545C72 /* ChooseEmotionsViewController.swift in Sources */,
 				F4D750181BD38F0C009E1003 /* SWRevealViewController.m in Sources */,
 				A581D1DF1BFDE2B300545C72 /* LogEmotionsViewController.swift in Sources */,

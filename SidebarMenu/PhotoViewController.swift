@@ -9,11 +9,15 @@
 import UIKit
 
 class PhotoViewController: UIViewController{
+    
+    
+    var Reveal = RevealViewControllerBridge()
     // Counter to keep track of how many times the Practice button has been pressed 
     // if odd, it means "starting" practice
     // if even, it means "ending practice"
     var buttonCount = 0
-    @IBOutlet weak var menuButton:UIBarButtonItem!
+    //@IBOutlet weak var menuButton:UIBarButtonItem!
+    @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var imageView: UIImageView!
     @IBAction func practiceButton(sender: UIBarButtonItem) {
         buttonCount++
@@ -31,10 +35,14 @@ class PhotoViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if revealViewController() != nil {
-            menuButton.target = revealViewController()
+        var controller = revealViewController()
+        if controller != nil {
+            //menuButton.target = Reveal
+            menuButton.target = controller
+//            menuButton.action = "handleButtonPress"
             menuButton.action = "revealToggle:"
-            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            
+            view.addGestureRecognizer(controller.panGestureRecognizer())
         }
         
         

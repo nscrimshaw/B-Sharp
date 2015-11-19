@@ -392,6 +392,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="cIG-2W-kBb" id="wXg-9V-2fv"/>
+                        <outlet property="menuButton" destination="iqz-e9-69r" id="FYI-Zp-7hM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ne9-ho-vGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -414,7 +415,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Start Practice" id="cTD-Lp-2MS">
+                                    <navigationItem title="End Practice" id="cTD-Lp-2MS">
                                         <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="43W-Cv-dqt">
                                             <color key="tintColor" red="0.1215686275" green="0.37254901959999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
