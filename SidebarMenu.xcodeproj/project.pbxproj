@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A581D1DF1BFDE2B300545C72 /* LogEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581D1DE1BFDE2B300545C72 /* LogEmotionsViewController.swift */; };
+		A581D1E11BFDED3700545C72 /* ChooseEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581D1E01BFDED3700545C72 /* ChooseEmotionsViewController.swift */; };
 		F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47029F51A7F27DB00E30A3C /* AppDelegate.swift */; };
 		F47029FB1A7F27DB00E30A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47029F91A7F27DB00E30A3C /* Main.storyboard */; };
 		F47029FD1A7F27DB00E30A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47029FC1A7F27DB00E30A3C /* Images.xcassets */; };
@@ -18,7 +20,7 @@
 		F491E74C1A7F4C630026528E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */; };
 		F491E7531A7F7DF20026528E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E7521A7F7DF20026528E /* MapViewController.swift */; };
 		F491E7551A7F7E010026528E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E7541A7F7E010026528E /* PhotoViewController.swift */; };
-		F4D750181BD38F0C009E1003 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D750171BD38F0C009E1003 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F4D750181BD38F0C009E1003 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D750171BD38F0C009E1003 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A581D1DE1BFDE2B300545C72 /* LogEmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEmotionsViewController.swift; sourceTree = "<group>"; };
+		A581D1E01BFDED3700545C72 /* ChooseEmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseEmotionsViewController.swift; path = ../ChooseEmotionsViewController.swift; sourceTree = "<group>"; };
 		F47029F01A7F27DB00E30A3C /* SidebarMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47029F41A7F27DB00E30A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47029F51A7F27DB00E30A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */,
 				F491E7521A7F7DF20026528E /* MapViewController.swift */,
 				F491E7541A7F7E010026528E /* PhotoViewController.swift */,
+				A581D1DE1BFDE2B300545C72 /* LogEmotionsViewController.swift */,
+				A581D1E01BFDED3700545C72 /* ChooseEmotionsViewController.swift */,
 			);
 			path = SidebarMenu;
 			sourceTree = "<group>";
@@ -249,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A581D1E11BFDED3700545C72 /* ChooseEmotionsViewController.swift in Sources */,
 				F4D750181BD38F0C009E1003 /* SWRevealViewController.m in Sources */,
+				A581D1DF1BFDE2B300545C72 /* LogEmotionsViewController.swift in Sources */,
 				F4702A181A7F351C00E30A3C /* MenuController.swift in Sources */,
 				F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */,
 				F491E74C1A7F4C630026528E /* NewsTableViewCell.swift in Sources */,

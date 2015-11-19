@@ -1,37 +1,29 @@
 //
-//  PhotoViewController.swift
+//  ChooseEmotionsViewController.swift
 //  SidebarMenu
 //
-//  Created by Simon Ng on 2/2/15.
-//  Copyright (c) 2015 AppCoda. All rights reserved.
+//  Created by Priya Ganesan on 11/19/15.
+//  Copyright © 2015 AppCoda. All rights reserved.
 //
 
 import UIKit
 
-class PhotoViewController: UIViewController, UITextFieldDelegate {
-    @IBOutlet weak var menuButton:UIBarButtonItem!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var goalField: UITextField!
-    
-    
+class ChooseEmotionsViewController: UIViewController {
+
+    @IBAction func emotion1(sender: UIButton) {
+            sender.backgroundColor = UIColor.redColor()
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if revealViewController() != nil {
-            menuButton.target = revealViewController()
-            menuButton.action = "revealToggle:"
-            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
-        
-        
+        // Do any additional setup after loading the view.
     }
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
 
     /*
