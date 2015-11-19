@@ -394,7 +394,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ne9-ho-vGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2577" y="780"/>
+            <point key="canvasLocation" x="2573" y="779"/>
+        </scene>
+        <!--End Practice-->
+        <scene sceneID="GZr-gz-JjI">
+            <objects>
+                <viewController id="3Ue-wZ-XIX" userLabel="End Practice" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rPi-9X-qnw"/>
+                        <viewControllerLayoutGuide type="bottom" id="DVF-by-w5C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eZ7-hv-7QY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxj-FT-n9c">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Start Practice" id="cTD-Lp-2MS">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="43W-Cv-dqt">
+                                            <color key="tintColor" red="0.1215686275" green="0.37254901959999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="sE8-Cy-yWP" kind="show" id="NhR-bl-vaA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ql-WK-Huj">
+                                <rect key="frame" x="0.0" y="-2" width="600" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.72549019609999998" green="0.96862745100000003" blue="0.94509803920000002" alpha="0.5" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCj-rZ-tJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3343" y="1572"/>
         </scene>
         <!--Start Practice-->
         <scene sceneID="eti-ev-v3M">
@@ -517,7 +557,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="czD-hQ-bCo">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="czD-hQ-bCo">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <animations/>
                                 <items>
@@ -531,36 +571,266 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju4-ZY-UDn">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju4-ZY-UDn">
                                 <rect key="frame" x="0.0" y="-10" width="600" height="37"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Choose up to 3)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHb-Ws-gOd">
-                                <rect key="frame" x="222" y="193" width="157" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe what you're feeling right now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddh-Uw-oa3">
+                                <rect key="frame" x="134" y="118" width="333" height="24"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-ui-BZc">
-                                <rect key="frame" x="191" y="307" width="46" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Choose at least 2)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHb-Ws-gOd">
+                                <rect key="frame" x="224" y="186" width="153" height="22"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-ui-BZc">
+                                <rect key="frame" x="129" y="230" width="100" height="41"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="7IR-yv-7Pb"/>
+                                    <constraint firstAttribute="width" constant="100" id="B8t-Ne-cV3"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Content">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="kEx-Qe-Aeb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Describe what you're feeling right now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddh-Uw-oa3">
-                                <rect key="frame" x="85" y="113" width="430" height="43"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzs-od-tDu">
+                                <rect key="frame" x="129" y="286" width="100" height="41"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="26"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="cmb-lD-nsD"/>
+                                    <constraint firstAttribute="width" constant="100" id="vhu-6X-OYJ"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Nervous">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="sBu-H0-VCZ"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="XNg-wJ-dkx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJv-2k-fPm">
+                                <rect key="frame" x="256" y="231" width="100" height="41"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Ppd-zc-rp8"/>
+                                    <constraint firstAttribute="height" constant="41" id="waZ-0f-cQg"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Irritated">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="7Ij-Ad-fmT"/>
+                                    <action selector="emotion2:" destination="dVR-J6-EXi" eventType="touchUpInside" id="1Sh-25-v4g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFW-Zx-74s">
+                                <rect key="frame" x="381" y="231" width="100" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="aLi-G7-bY3"/>
+                                    <constraint firstAttribute="height" constant="40" id="sM4-9e-cOE"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Sad">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="GAc-34-cgd"/>
+                                    <action selector="emotion2:" destination="dVR-J6-EXi" eventType="touchUpInside" id="sDX-oz-4hy"/>
+                                    <action selector="emotion3:" destination="dVR-J6-EXi" eventType="touchUpInside" id="3MS-SW-5QE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5T-2q-KCe">
+                                <rect key="frame" x="129" y="349" width="100" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3Jk-Ep-Dxy"/>
+                                    <constraint firstAttribute="width" constant="100" id="7m2-II-xlb"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Relief">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="iZD-pO-Rqo"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="lGt-iV-6al"/>
+                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="hEM-Ym-FSB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hd-xb-MsF">
+                                <rect key="frame" x="256" y="287" width="98" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BiY-lH-YtQ"/>
+                                    <constraint firstAttribute="width" constant="98" id="Yz0-KC-DZj"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Angry">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="H0Q-XA-5iq"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="fpQ-3h-vzz"/>
+                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="j4w-a8-7yU"/>
+                                    <action selector="emotion6:" destination="dVR-J6-EXi" eventType="touchUpInside" id="CC9-Mu-Ffz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADa-N9-QXb">
+                                <rect key="frame" x="381" y="287" width="98" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Fg2-uj-z8p"/>
+                                    <constraint firstAttribute="height" constant="40" id="epE-J0-1HI"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Happy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="oiq-11-U6Z"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="hYI-mC-SRR"/>
+                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="DaL-Ef-7ga"/>
+                                    <action selector="emotion6:" destination="dVR-J6-EXi" eventType="touchUpInside" id="hgB-U2-7C0"/>
+                                    <action selector="emotion7:" destination="dVR-J6-EXi" eventType="touchUpInside" id="HlW-Ui-PS5"/>
+                                    <action selector="emotion8:" destination="dVR-J6-EXi" eventType="touchUpInside" id="wXD-gD-wbc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yti-Oj-u2N">
+                                <rect key="frame" x="254" y="350" width="100" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="J2z-rX-8dB"/>
+                                    <constraint firstAttribute="height" constant="40" id="lfD-7j-1eI"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Pride">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="oGP-CS-M3i"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="DwR-Gy-177"/>
+                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="YTm-GS-s8Z"/>
+                                    <action selector="emotion6:" destination="dVR-J6-EXi" eventType="touchUpInside" id="FcW-WA-pdm"/>
+                                    <action selector="emotion7:" destination="dVR-J6-EXi" eventType="touchUpInside" id="1ql-gc-Cwg"/>
+                                    <action selector="emotion8:" destination="dVR-J6-EXi" eventType="touchUpInside" id="2sx-tx-YMh"/>
+                                    <action selector="emotion9:" destination="dVR-J6-EXi" eventType="touchUpInside" id="fZb-ZL-hn2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ms7-IO-XYl">
+                                <rect key="frame" x="237" y="485" width="126" height="52"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.26666666666666666" green="0.76862745098039209" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="NmS-zy-R0g"/>
+                                    <constraint firstAttribute="width" constant="126" id="qyi-yh-Rgj"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Get Started!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="PrM-wg-AZO"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Y1O-1v-Lhf"/>
+                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="rnW-Wz-XAe"/>
+                                    <action selector="emotion6:" destination="dVR-J6-EXi" eventType="touchUpInside" id="8dn-tF-ioc"/>
+                                    <action selector="emotion7:" destination="dVR-J6-EXi" eventType="touchUpInside" id="ALX-ff-det"/>
+                                    <action selector="emotion8:" destination="dVR-J6-EXi" eventType="touchUpInside" id="HKm-g9-KgT"/>
+                                    <action selector="emotion9:" destination="dVR-J6-EXi" eventType="touchUpInside" id="jcx-zR-krL"/>
+                                    <segue destination="sE8-Cy-yWP" kind="show" id="9la-2V-jQK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yia-FP-viZ">
+                                <rect key="frame" x="381" y="350" width="98" height="38"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="1Gn-Nd-xCg"/>
+                                    <constraint firstAttribute="height" constant="38" id="xFA-D6-gfa"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
+                                <state key="normal" title="Afraid">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emotion10:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Mjj-IR-kLr"/>
+                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="NmP-vF-oBd"/>
+                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Nlg-a9-4MM"/>
+                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="1lq-wV-JTj"/>
+                                    <action selector="emotion6:" destination="dVR-J6-EXi" eventType="touchUpInside" id="bJ1-oA-Zc4"/>
+                                    <action selector="emotion7:" destination="dVR-J6-EXi" eventType="touchUpInside" id="046-se-BgJ"/>
+                                    <action selector="emotion8:" destination="dVR-J6-EXi" eventType="touchUpInside" id="nHj-H0-bCq"/>
+                                    <action selector="emotion9:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Dpg-Jg-hwd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.72549019609999998" green="0.96862745100000003" blue="0.94509803920000002" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="F5T-2q-KCe" secondAttribute="bottom" constant="167" id="0K7-eR-R1n"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="ms7-IO-XYl" secondAttribute="bottom" constant="19" id="17p-Yd-jtL"/>
+                            <constraint firstItem="LFW-Zx-74s" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="211" id="4k8-am-j36"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="czD-hQ-bCo" secondAttribute="trailing" constant="-20" id="6Ne-Nr-TiG"/>
+                            <constraint firstItem="czD-hQ-bCo" firstAttribute="trailing" secondItem="Ju4-ZY-UDn" secondAttribute="trailing" id="8eL-AK-aXJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F5T-2q-KCe" secondAttribute="trailing" constant="351" id="FSA-by-YIN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ms7-IO-XYl" secondAttribute="trailing" constant="219" id="Fnr-Vc-3jW"/>
+                            <constraint firstItem="czD-hQ-bCo" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="G4z-h8-Lr3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wbl-ui-BZc" secondAttribute="trailing" constant="351" id="Ggf-Aw-ZY4"/>
+                            <constraint firstItem="Ddh-Uw-oa3" firstAttribute="top" secondItem="Ju4-ZY-UDn" secondAttribute="bottom" constant="91" id="Jah-7S-pR6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yia-FP-viZ" secondAttribute="trailing" constant="101" id="LsA-D2-Eo0"/>
+                            <constraint firstItem="8hd-xb-MsF" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="267" id="M1v-qE-Dke"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="Dzs-od-tDu" secondAttribute="bottom" constant="229" id="MTg-Eg-og2"/>
+                            <constraint firstItem="Ju4-ZY-UDn" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="UBu-HW-FSb"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="ADa-N9-QXb" secondAttribute="bottom" constant="229" id="aDh-qt-KJa"/>
+                            <constraint firstItem="CJv-2k-fPm" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="236" id="adV-K4-DPM"/>
+                            <constraint firstItem="czD-hQ-bCo" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="-20" id="bml-UB-hwh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wbl-ui-BZc" secondAttribute="trailing" constant="351" id="chv-cB-92e"/>
+                            <constraint firstItem="ms7-IO-XYl" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="d8U-5v-Ogn"/>
+                            <constraint firstItem="Ddh-Uw-oa3" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="98" id="dF6-fg-baf"/>
+                            <constraint firstItem="Ju4-ZY-UDn" firstAttribute="top" secondItem="hWp-4K-6hV" secondAttribute="topMargin" constant="-10" id="ecL-Pg-XQL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ADa-N9-QXb" secondAttribute="trailing" constant="101" id="ekI-JD-A3E"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="Wbl-ui-BZc" secondAttribute="bottom" constant="285" id="idy-MF-eHt"/>
+                            <constraint firstItem="CJv-2k-fPm" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="211" id="kKN-Pl-uJH"/>
+                            <constraint firstItem="Yti-Oj-u2N" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="234" id="nca-6o-sjr"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="Ju4-ZY-UDn" secondAttribute="bottom" constant="529" id="pjW-hN-L56"/>
+                            <constraint firstItem="RHb-Ws-gOd" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="qwm-hj-ztX"/>
+                            <constraint firstItem="czD-hQ-bCo" firstAttribute="leading" secondItem="Ju4-ZY-UDn" secondAttribute="leading" id="reR-dU-ucc"/>
+                            <constraint firstItem="LFW-Zx-74s" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="361" id="t8W-Fg-mZL"/>
+                            <constraint firstItem="Ddh-Uw-oa3" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="uXW-Mg-zhk"/>
+                            <constraint firstItem="RHb-Ws-gOd" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="166" id="w1C-Nn-jb7"/>
+                            <constraint firstItem="czD-hQ-bCo" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" id="wAw-YY-tGo"/>
+                            <constraint firstItem="Dzs-od-tDu" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="109" id="xkD-AF-yg6"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="Yia-FP-viZ" secondAttribute="bottom" constant="168" id="y1u-xO-kz7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8hd-xb-MsF" secondAttribute="trailing" constant="226" id="yuA-Yr-KA5"/>
+                            <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="Yti-Oj-u2N" secondAttribute="bottom" constant="166" id="ywM-Qz-vDH"/>
+                            <constraint firstItem="Ju4-ZY-UDn" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="-20" id="zYT-qr-92a"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Fnr-Vc-3jW"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Kc-4b-pzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -759,7 +1029,7 @@
         <image name="tag" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="NhR-bl-vaA"/>
         <segue reference="foL-zu-uHU"/>
-        <segue reference="ktz-4v-Olv"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -10,8 +10,56 @@ import UIKit
 
 class ChooseEmotionsViewController: UIViewController {
 
+    @IBAction func emotion10(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    @IBAction func emotion9(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    @IBAction func emotion8(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    @IBAction func emotion7(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    @IBAction func emotion6(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    @IBAction func emotion5(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    
+    @IBAction func emotion4(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    @IBAction func emotion3(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
+    
+    @IBAction func emotion2(sender: UIButton) {
+        sender.backgroundColor = UIColor.purpleColor()
+
+    }
+    
     @IBAction func emotion1(sender: UIButton) {
-            sender.backgroundColor = UIColor.redColor()
+        // need to add if/else clause to determine when the color is highlighted by checking background color and changing accordingly
+            sender.backgroundColor = UIColor.purpleColor()
         
     }
     override func viewDidLoad() {
