@@ -28,7 +28,7 @@ class LogEmotionsViewController: UIViewController, UITextFieldDelegate {
         goalField.delegate = self
         
         // Hide next button until goal entered
-        nextButton.hidden = true
+        //nextButton.hidden = true
     }
 
     
