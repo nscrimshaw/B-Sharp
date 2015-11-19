@@ -42,6 +42,7 @@
                 <constraint firstItem="p0e-CI-1tI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="c6F-Kq-1mU"/>
                 <constraint firstAttribute="bottom" secondItem="p0e-CI-1tI" secondAttribute="bottom" constant="192" id="cVo-X9-6ZS"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstItem="p0e-CI-1tI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="168" id="zCR-k9-jbM"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

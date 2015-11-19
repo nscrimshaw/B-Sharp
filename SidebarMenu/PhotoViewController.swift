@@ -9,8 +9,23 @@
 import UIKit
 
 class PhotoViewController: UIViewController{
+    // Counter to keep track of how many times the Practice button has been pressed 
+    // if odd, it means "starting" practice
+    // if even, it means "ending practice"
+    var buttonCount = 0
     @IBOutlet weak var menuButton:UIBarButtonItem!
     @IBOutlet weak var imageView: UIImageView!
+    @IBAction func practiceButton(sender: UIBarButtonItem) {
+        buttonCount++
+        if buttonCount%2 == 0{ // even
+            // change color of button 
+            // transition to start practice screen
+        } else{ // odd
+            // take away highlight of button
+            // transition to end practice screen (not sure how screen branching works).. 
+        }
+        
+    }
     
     
     override func viewDidLoad() {
