@@ -1167,7 +1167,7 @@ const int FrontViewPositionNone = 0xff;
     if ( [_delegate respondsToSelector:@selector(revealControllerPanGestureShouldBegin:)] )
         if ( [_delegate revealControllerPanGestureShouldBegin:self] == NO )
             return NO;
-
+    return NO; 
     CGFloat xLocation = [_panGestureRecognizer locationInView:recognizerView].x;
     CGFloat width = recognizerView.bounds.size.width;
     
