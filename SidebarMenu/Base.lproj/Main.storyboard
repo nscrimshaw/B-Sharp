@@ -454,6 +454,7 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="cIG-2W-kBb" firstAttribute="top" secondItem="IPC-hk-0Qs" secondAttribute="bottom" constant="44" id="DBh-5O-pcQ"/>
                             <constraint firstItem="cIG-2W-kBb" firstAttribute="leading" secondItem="pBu-io-TV5" secondAttribute="leadingMargin" constant="-20" id="Tq6-eI-asp"/>
@@ -469,6 +470,9 @@
                                 <exclude reference="yk2-Pv-KRr"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="KkF-6w-ESj" appends="YES" id="kD6-7b-9dG"/>
+                        </connections>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Music" id="Drl-Ny-wyG" userLabel="Photo">
@@ -495,8 +499,74 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ne9-ho-vGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem image="menu" id="Fai-Vp-cpa"/>
+                <swipeGestureRecognizer direction="right" id="KkF-6w-ESj">
+                    <connections>
+                        <segue destination="O4f-7A-kbu" kind="show" id="6aD-Wn-df1"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2573" y="779"/>
+        </scene>
+        <!--Select Music 2-->
+        <scene sceneID="aL0-Wt-i3W">
+            <objects>
+                <viewController id="O4f-7A-kbu" userLabel="Select Music 2" customClass="PhotoViewController" customModule="SidebarMenu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rQT-6S-8Je"/>
+                        <viewControllerLayoutGuide type="bottom" id="yk1-nj-Zar"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nbi-Sl-Wxc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blank-space2" translatesAutoresizingMaskIntoConstraints="NO" id="1S4-md-epF">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="1S4-md-epF" firstAttribute="leading" secondItem="nbi-Sl-Wxc" secondAttribute="leading" id="J7X-UH-wd2"/>
+                            <constraint firstItem="1S4-md-epF" firstAttribute="bottom" secondItem="yk1-nj-Zar" secondAttribute="top" id="aW8-CH-fwp"/>
+                            <constraint firstItem="1S4-md-epF" firstAttribute="top" secondItem="rQT-6S-8Je" secondAttribute="bottom" id="gVF-Sw-a0D"/>
+                            <constraint firstAttribute="trailing" secondItem="1S4-md-epF" secondAttribute="trailing" id="rcJ-UF-933"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hPR-Ej-UjC" appends="YES" id="35Q-Na-bRA"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Music" id="3eA-xC-XOk">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="YVB-lz-gof"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="stop25x25" id="HTV-q4-pQn">
+                                <connections>
+                                    <segue destination="3Ue-wZ-XIX" kind="presentation" id="zCh-as-afr"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="play25x25" id="dgE-J6-ewa">
+                                <connections>
+                                    <action selector="practiceButton:" destination="sE8-Cy-yWP" id="BdV-bQ-QAS"/>
+                                    <segue destination="agy-6n-e91" kind="presentation" id="c4W-RP-S8V"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="menuButton" destination="YVB-lz-gof" id="el8-qc-qyv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i52-I5-Kr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="hPR-Ej-UjC">
+                    <connections>
+                        <segue destination="sE8-Cy-yWP" kind="show" id="rk4-fV-1n1"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2573" y="1572"/>
         </scene>
         <!--End Practice-->
         <scene sceneID="GZr-gz-JjI">
@@ -638,7 +708,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKX-lN-mNo">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKX-lN-mNo">
                                 <rect key="frame" x="722" y="-6" width="46" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
@@ -711,7 +781,6 @@
                         </variation>
                     </view>
                     <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="goalField" destination="Tht-mj-bU6" id="VFp-UZ-6vV"/>
                         <outlet property="nextButton" destination="9Bk-5w-JlE" id="bsc-yj-lhv"/>
@@ -1185,6 +1254,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="blank-space2" width="980" height="1320"/>
         <image name="calendar" width="1024" height="1024"/>
         <image name="comments" width="1024" height="1024"/>
         <image name="community25x25" width="50" height="50"/>
@@ -1199,8 +1269,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="x0H-M3-tAA"/>
         <segue reference="foL-zu-uHU"/>
-        <segue reference="mUc-WM-FVw"/>
-        <segue reference="9qQ-OX-Sa4"/>
+        <segue reference="zCh-as-afr"/>
+        <segue reference="uwq-Hg-fvs"/>
+        <segue reference="c4W-RP-S8V"/>
+        <segue reference="t7V-KZ-T5I"/>
         <segue reference="afT-ns-bji"/>
     </inferredMetricsTieBreakers>
 </document>
