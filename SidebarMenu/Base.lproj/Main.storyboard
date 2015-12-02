@@ -49,19 +49,19 @@
                                     <constraint firstAttribute="width" constant="39" id="R5g-pE-Koc"/>
                                 </constraints>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="currentPageIndicatorTintColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                             </pageControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GZ-qa-SQ6">
-                                <rect key="frame" x="130" y="169" width="46" height="30"/>
+                                <rect key="frame" x="77" y="169" width="154" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Summary Screen Here"/>
                                 <connections>
                                     <segue destination="ilH-ia-p22" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ERm-5q-kQi"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.92549019607843142" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Xhq-Om-i06" firstAttribute="top" secondItem="1V6-Hn-ruu" secondAttribute="bottom" constant="460" id="8Ue-0T-KHg"/>
@@ -97,10 +97,45 @@
             </objects>
             <point key="canvasLocation" x="2553" y="57"/>
         </scene>
+        <!--Pop-->
+        <scene sceneID="Ca1-xG-yCC">
+            <objects>
+                <viewController storyboardIdentifier="Pop" modalPresentationStyle="formSheet" id="TTK-9S-yvs" userLabel="Pop" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ob6-1c-ZeZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ssv-9E-kZK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T07-z9-Q8O">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJZ-4d-5n2">
+                                <rect key="frame" x="78" y="65" width="56" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Times Felt this Week:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="er8-rR-jCY">
+                                <rect key="frame" x="78" y="121" width="164" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ivf-7S-v5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3359" y="-686"/>
+        </scene>
         <!--Word Cloud-->
         <scene sceneID="f75-LV-Fuh">
             <objects>
-                <viewController id="ilH-ia-p22" userLabel="Word Cloud" customClass="MapViewController" customModule="SidebarMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ilH-ia-p22" userLabel="Word Cloud" customClass="MapViewController" customModule="SidebarMenu" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k9d-JF-oZP"/>
                         <viewControllerLayoutGuide type="bottom" id="8vX-gK-OpB"/>
@@ -109,13 +144,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Word Cloud Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHY-5X-av9">
-                                <rect key="frame" x="85" y="198" width="149" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vsv-wC-vAn">
                                 <rect key="frame" x="281" y="524" width="39" height="37"/>
                                 <animations/>
@@ -123,15 +151,60 @@
                                     <constraint firstAttribute="width" constant="39" id="Jds-hO-t0D"/>
                                 </constraints>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="currentPageIndicatorTintColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                             </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VI2-wa-Yg0">
+                                <rect key="frame" x="184" y="195" width="128" height="23"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="Xcg-Wr-Zg7"/>
+                                    <constraint firstAttribute="width" constant="128" id="tVe-Ix-Jz9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Determined"/>
+                                <connections>
+                                    <action selector="wordcloud_1:" destination="ilH-ia-p22" eventType="touchUpInside" id="vSW-ZR-axu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky5-Ht-2Pa">
+                                <rect key="frame" x="117" y="139" width="37" height="30"/>
+                                <animations/>
+                                <state key="normal" title="joyful"/>
+                                <connections>
+                                    <action selector="joyful:" destination="ilH-ia-p22" eventType="touchUpInside" id="5Re-tV-obI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3A-W0-TuQ">
+                                <rect key="frame" x="351" y="288" width="76" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Happy"/>
+                                <connections>
+                                    <action selector="happy:" destination="ilH-ia-p22" eventType="touchUpInside" id="ar6-sH-wDy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-7M-YLE">
+                                <rect key="frame" x="96" y="386" width="161" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="frustrated"/>
+                                <connections>
+                                    <action selector="frustrated:" destination="ilH-ia-p22" eventType="touchUpInside" id="jdD-Ez-QuY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="f3A-W0-TuQ" secondAttribute="trailing" constant="173" id="ICY-lc-YYg"/>
                             <constraint firstItem="Vsv-wC-vAn" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="460" id="KEl-26-2iL"/>
+                            <constraint firstItem="Ky5-Ht-2Pa" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="75" id="USc-b0-HJR"/>
+                            <constraint firstItem="VI2-wa-Yg0" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="131" id="hWx-In-ObO"/>
                             <constraint firstItem="8vX-gK-OpB" firstAttribute="top" secondItem="Vsv-wC-vAn" secondAttribute="bottom" constant="39" id="jdH-Pq-bLC"/>
+                            <constraint firstItem="Ky5-Ht-2Pa" firstAttribute="leading" secondItem="bE5-Ov-tvZ" secondAttribute="leadingMargin" constant="97" id="rZb-5K-IrQ"/>
+                            <constraint firstItem="f3A-W0-TuQ" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="224" id="xdE-zF-tRU"/>
+                            <constraint firstItem="VI2-wa-Yg0" firstAttribute="leading" secondItem="bE5-Ov-tvZ" secondAttribute="leading" constant="184" id="yhh-R5-JrN"/>
                             <constraint firstItem="Vsv-wC-vAn" firstAttribute="centerX" secondItem="bE5-Ov-tvZ" secondAttribute="centerX" id="yoW-Bu-5IM"/>
                         </constraints>
                         <connections>
@@ -181,11 +254,11 @@
                                     <constraint firstAttribute="width" constant="39" id="nry-HY-9pD"/>
                                 </constraints>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="currentPageIndicatorTintColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862068966" colorSpace="calibratedRGB"/>
                             </pageControl>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wP4-18-S8E" firstAttribute="top" secondItem="44e-cP-Rrt" secondAttribute="bottom" constant="460" id="cJE-9S-apL"/>
                             <constraint firstItem="wP4-18-S8E" firstAttribute="centerX" secondItem="8it-WN-MBK" secondAttribute="centerX" id="hIb-h3-6ti"/>
@@ -552,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ne9-ho-vGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <barButtonItem image="menu" id="Fai-Vp-cpa"/>
-                <swipeGestureRecognizer direction="right" id="KkF-6w-ESj">
+                <swipeGestureRecognizer direction="left" id="KkF-6w-ESj">
                     <connections>
                         <segue destination="O4f-7A-kbu" kind="show" id="6aD-Wn-df1"/>
                     </connections>
@@ -612,7 +685,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i52-I5-Kr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="hPR-Ej-UjC">
+                <swipeGestureRecognizer direction="right" id="hPR-Ej-UjC">
                     <connections>
                         <segue destination="sE8-Cy-yWP" kind="show" id="rk4-fV-1n1"/>
                     </connections>
@@ -704,7 +777,7 @@
                             </navigationBar>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.72549019609999998" green="0.96862745100000003" blue="0.94509803920000002" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="R49-0f-vAn" firstAttribute="centerX" secondItem="eZ7-hv-7QY" secondAttribute="centerX" id="1bn-AT-ed2"/>
                             <constraint firstItem="Hr3-vN-X1r" firstAttribute="centerX" secondItem="eZ7-hv-7QY" secondAttribute="centerX" id="3pe-F4-daU"/>
@@ -806,7 +879,7 @@
                             </navigationBar>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.72549019607843135" green="0.96862745098039216" blue="0.94509803921568625" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9Bk-5w-JlE" firstAttribute="centerX" secondItem="7im-jh-Xff" secondAttribute="centerX" constant="-11.5" id="2dc-gN-Q89"/>
@@ -1079,7 +1152,7 @@
                             </navigationBar>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.72549019609999998" green="0.96862745100000003" blue="0.94509803920000002" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Wbl-ui-BZc" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="202" id="086-nu-eEl"/>
                             <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="ms7-IO-XYl" secondAttribute="bottom" constant="19" id="17p-Yd-jtL"/>
@@ -1159,8 +1232,8 @@
         <segue reference="afT-ns-bji"/>
         <segue reference="foL-zu-uHU"/>
         <segue reference="zCh-as-afr"/>
-        <segue reference="uwq-Hg-fvs"/>
+        <segue reference="K1X-fa-JhY"/>
         <segue reference="c4W-RP-S8V"/>
-        <segue reference="t7V-KZ-T5I"/>
+        <segue reference="9qQ-OX-Sa4"/>
     </inferredMetricsTieBreakers>
 </document>
