@@ -34,6 +34,82 @@ class MapViewController: UIViewController {
 
     }
     
+    @IBAction func Proud(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+   
+    @IBAction func Nervous(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Focused(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Calm(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Scared(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Sad(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Distracted(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Energized(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Quiet(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Fierce(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Stressed(sender: UIButton) {
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Lazy(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
+    
+    @IBAction func Motivated(sender: UIButton) {
+        
+        wordInfo(sender)
+
+    }
     
     @IBOutlet weak var menuButton:UIBarButtonItem!
 

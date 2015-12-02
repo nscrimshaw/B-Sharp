@@ -80,7 +80,7 @@
                             <outletCollection property="gestureRecognizers" destination="ZDk-hi-8Oy" appends="YES" id="gNu-Di-aAa"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Track Progress" id="EsM-bb-8Ms">
+                    <navigationItem key="navigationItem" title="Progress Summary" id="EsM-bb-8Ms">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="Fa5-kb-XEy"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -153,43 +153,192 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                             </pageControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VI2-wa-Yg0">
-                                <rect key="frame" x="184" y="195" width="128" height="23"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VI2-wa-Yg0">
+                                <rect key="frame" x="116" y="142" width="143" height="23"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="23" id="Xcg-Wr-Zg7"/>
-                                    <constraint firstAttribute="width" constant="128" id="tVe-Ix-Jz9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Determined"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Determined">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="wordcloud_1:" destination="ilH-ia-p22" eventType="touchUpInside" id="vSW-ZR-axu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky5-Ht-2Pa">
-                                <rect key="frame" x="117" y="139" width="37" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky5-Ht-2Pa">
+                                <rect key="frame" x="66" y="112" width="41" height="30"/>
                                 <animations/>
-                                <state key="normal" title="joyful"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Joyful">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="joyful:" destination="ilH-ia-p22" eventType="touchUpInside" id="5Re-tV-obI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3A-W0-TuQ">
-                                <rect key="frame" x="351" y="288" width="76" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3A-W0-TuQ">
+                                <rect key="frame" x="186" y="240" width="89" height="47"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Happy"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Happy">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="happy:" destination="ilH-ia-p22" eventType="touchUpInside" id="ar6-sH-wDy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-7M-YLE">
-                                <rect key="frame" x="96" y="386" width="161" height="30"/>
+                                <rect key="frame" x="-10" y="323" width="161" height="30"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="frustrated"/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="18"/>
+                                <state key="normal" title="Frustrated">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="frustrated:" destination="ilH-ia-p22" eventType="touchUpInside" id="jdD-Ez-QuY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydu-PR-SdR">
+                                <rect key="frame" x="9" y="265" width="73" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <state key="normal" title="Proud">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Proud:" destination="ilH-ia-p22" eventType="touchUpInside" id="feG-n5-bke"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="la9-Pu-uTr">
+                                <rect key="frame" x="59" y="183" width="91" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="22"/>
+                                <state key="normal" title="Nervous">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Nervous:" destination="ilH-ia-p22" eventType="touchUpInside" id="SZU-2b-eH3"/>
+                                    <action selector="Proud:" destination="ilH-ia-p22" eventType="touchUpInside" id="SFe-9H-2Xy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddA-0S-4by">
+                                <rect key="frame" x="106" y="283" width="183" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="44"/>
+                                <state key="normal" title="Focused">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Focused:" destination="ilH-ia-p22" eventType="touchUpInside" id="Yev-Cw-x9I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="282-qg-77z">
+                                <rect key="frame" x="148" y="102" width="81" height="43"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="36"/>
+                                <state key="normal" title="Calm">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Calm:" destination="ilH-ia-p22" eventType="touchUpInside" id="mz9-pc-mE4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPF-PJ-Qlc">
+                                <rect key="frame" x="14" y="148" width="93" height="43"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="35"/>
+                                <state key="normal" title="Scared">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Scared:" destination="ilH-ia-p22" eventType="touchUpInside" id="EDW-Su-fKQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVo-jW-tVp">
+                                <rect key="frame" x="67" y="243" width="45" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="Sad">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Sad:" destination="ilH-ia-p22" eventType="touchUpInside" id="ocK-5u-VBX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uax-Xy-o51">
+                                <rect key="frame" x="184" y="164" width="108" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="Distracted">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Distracted:" destination="ilH-ia-p22" eventType="touchUpInside" id="NiI-5W-8GN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJp-ec-ZkC">
+                                <rect key="frame" x="30" y="211" width="62" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Quiet">
+                                    <color key="titleColor" red="0.45342911670000002" green="0.57052748669999997" blue="0.85984689599999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Quiet:" destination="ilH-ia-p22" eventType="touchUpInside" id="QYq-j2-mex"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVX-tz-6xg">
+                                <rect key="frame" x="118" y="224" width="99" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="22"/>
+                                <state key="normal" title="Energized">
+                                    <color key="titleColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Energized:" destination="ilH-ia-p22" eventType="touchUpInside" id="4ed-66-LZ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujw-cE-oh9">
+                                <rect key="frame" x="20" y="86" width="82" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="Fierce">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Fierce:" destination="ilH-ia-p22" eventType="touchUpInside" id="4dp-aI-2XF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJO-kW-Yh8">
+                                <rect key="frame" x="119" y="77" width="74" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Stressed">
+                                    <color key="titleColor" red="0.45342911673825498" green="0.57052748673221476" blue="0.85984689597315433" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Stressed:" destination="ilH-ia-p22" eventType="touchUpInside" id="hOq-qp-kZq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnJ-nG-NxC">
+                                <rect key="frame" x="161" y="196" width="89" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="Lazy">
+                                    <color key="titleColor" red="0.45342911670000002" green="0.57052748669999997" blue="0.85984689599999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Lazy:" destination="ilH-ia-p22" eventType="touchUpInside" id="5v1-4y-UD6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0I-7x-mul">
+                                <rect key="frame" x="178" y="319" width="69" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <state key="normal" title="Motivated">
+                                    <color key="titleColor" red="0.45342911670000002" green="0.57052748669999997" blue="0.85984689599999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Motivated:" destination="ilH-ia-p22" eventType="touchUpInside" id="xl9-Sf-XBJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -197,14 +346,8 @@
                         <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="f3A-W0-TuQ" secondAttribute="trailing" constant="173" id="ICY-lc-YYg"/>
                             <constraint firstItem="Vsv-wC-vAn" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="460" id="KEl-26-2iL"/>
-                            <constraint firstItem="Ky5-Ht-2Pa" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="75" id="USc-b0-HJR"/>
-                            <constraint firstItem="VI2-wa-Yg0" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="131" id="hWx-In-ObO"/>
                             <constraint firstItem="8vX-gK-OpB" firstAttribute="top" secondItem="Vsv-wC-vAn" secondAttribute="bottom" constant="39" id="jdH-Pq-bLC"/>
-                            <constraint firstItem="Ky5-Ht-2Pa" firstAttribute="leading" secondItem="bE5-Ov-tvZ" secondAttribute="leadingMargin" constant="97" id="rZb-5K-IrQ"/>
-                            <constraint firstItem="f3A-W0-TuQ" firstAttribute="top" secondItem="k9d-JF-oZP" secondAttribute="bottom" constant="224" id="xdE-zF-tRU"/>
-                            <constraint firstItem="VI2-wa-Yg0" firstAttribute="leading" secondItem="bE5-Ov-tvZ" secondAttribute="leading" constant="184" id="yhh-R5-JrN"/>
                             <constraint firstItem="Vsv-wC-vAn" firstAttribute="centerX" secondItem="bE5-Ov-tvZ" secondAttribute="centerX" id="yoW-Bu-5IM"/>
                         </constraints>
                         <connections>
@@ -213,7 +356,7 @@
                         </connections>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Track Progress" id="mKU-0O-tDt">
+                    <navigationItem key="navigationItem" title="Word Cloud" id="mKU-0O-tDt">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="mcH-bO-Egm"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -268,7 +411,7 @@
                             <outletCollection property="gestureRecognizers" destination="ySR-YR-pey" appends="YES" id="0u0-Aq-DzS"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Track Progress" id="QxM-5w-sND">
+                    <navigationItem key="navigationItem" title="Progress Calendar" id="QxM-5w-sND">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="ScJ-77-yEr"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -1228,12 +1371,12 @@
         <image name="trackProgress25x25" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ERm-5q-kQi"/>
-        <segue reference="afT-ns-bji"/>
         <segue reference="foL-zu-uHU"/>
         <segue reference="zCh-as-afr"/>
         <segue reference="K1X-fa-JhY"/>
         <segue reference="c4W-RP-S8V"/>
         <segue reference="9qQ-OX-Sa4"/>
+        <segue reference="x0H-M3-tAA"/>
+        <segue reference="afT-ns-bji"/>
     </inferredMetricsTieBreakers>
 </document>
