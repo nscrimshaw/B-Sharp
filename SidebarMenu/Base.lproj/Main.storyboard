@@ -51,20 +51,83 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                             </pageControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GZ-qa-SQ6">
-                                <rect key="frame" x="77" y="169" width="154" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;The quieter you become, the more you can hear&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-RH-WTh">
+                                <rect key="frame" x="35" y="61" width="530" height="97"/>
                                 <animations/>
-                                <state key="normal" title="Summary Screen Here"/>
-                                <connections>
-                                    <segue destination="ilH-ia-p22" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ERm-5q-kQi"/>
-                                </connections>
-                            </button>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="fpp-ds-ooa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Ram Dass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHK-Lo-sNL">
+                                <rect key="frame" x="419" y="156" width="77" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwe-UE-3l7">
+                                <rect key="frame" x="45" y="206" width="92" height="47"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRV-GN-hFu">
+                                <rect key="frame" x="45" y="276" width="92" height="47"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAPPY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRt-BG-LD2">
+                                <rect key="frame" x="234" y="460" width="132" height="35"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="1b4-0f-inF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours practiced this week" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3mG-kL-78h">
+                                <rect key="frame" x="135" y="209" width="140" height="41"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most common emotion this week:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szB-h9-Lhl">
+                                <rect key="frame" x="171" y="424" width="258" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weekly average satisfaction score" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hx1-og-vFa">
+                                <rect key="frame" x="135" y="279" width="175" height="41"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.92549019607843142" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Xhq-Om-i06" firstAttribute="top" secondItem="1V6-Hn-ruu" secondAttribute="bottom" constant="460" id="8Ue-0T-KHg"/>
+                            <constraint firstItem="P1e-RH-WTh" firstAttribute="top" secondItem="1V6-Hn-ruu" secondAttribute="bottom" constant="-3" id="KJV-TV-g9L"/>
+                            <constraint firstItem="EHK-Lo-sNL" firstAttribute="baseline" secondItem="P1e-RH-WTh" secondAttribute="baseline" constant="22" id="Lce-bs-PGf"/>
+                            <constraint firstItem="Xhq-Om-i06" firstAttribute="top" secondItem="szB-h9-Lhl" secondAttribute="bottom" constant="79" id="MNt-uY-7La"/>
+                            <constraint firstItem="Xhq-Om-i06" firstAttribute="top" secondItem="mRt-BG-LD2" secondAttribute="bottom" constant="29" id="NHB-Kk-QFU"/>
+                            <constraint firstItem="P1e-RH-WTh" firstAttribute="leading" secondItem="HE4-02-mb0" secondAttribute="leadingMargin" constant="15" id="NpW-eD-Y9C"/>
+                            <constraint firstItem="szB-h9-Lhl" firstAttribute="centerX" secondItem="mRt-BG-LD2" secondAttribute="centerX" id="Wgu-Hn-vfQ"/>
+                            <constraint firstItem="P1e-RH-WTh" firstAttribute="centerX" secondItem="Xhq-Om-i06" secondAttribute="centerX" constant="-0.5" id="YZL-1U-pzb"/>
+                            <constraint firstItem="mRt-BG-LD2" firstAttribute="centerX" secondItem="Xhq-Om-i06" secondAttribute="centerX" id="azR-f1-d3c"/>
+                            <constraint firstItem="EHK-Lo-sNL" firstAttribute="trailing" secondItem="P1e-RH-WTh" secondAttribute="trailing" constant="-69" id="bat-sb-QMZ"/>
                             <constraint firstItem="GLp-rp-ryS" firstAttribute="top" secondItem="Xhq-Om-i06" secondAttribute="bottom" constant="39" id="flm-tm-Phu"/>
                             <constraint firstItem="Xhq-Om-i06" firstAttribute="centerX" secondItem="HE4-02-mb0" secondAttribute="centerX" id="i4D-hD-fra"/>
                             <constraint firstItem="Xhq-Om-i06" firstAttribute="leading" secondItem="HE4-02-mb0" secondAttribute="leadingMargin" constant="261" id="l6X-Y8-BFZ"/>
@@ -339,6 +402,18 @@
                                 </state>
                                 <connections>
                                     <action selector="Motivated:" destination="ilH-ia-p22" eventType="touchUpInside" id="xl9-Sf-XBJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKW-3Y-lWo">
+                                <rect key="frame" x="215" y="85" width="74" height="31"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Fulfilled">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Fulfilled:" destination="ilH-ia-p22" eventType="touchUpInside" id="piX-1r-9TN"/>
+                                    <action selector="Stressed:" destination="ilH-ia-p22" eventType="touchUpInside" id="gXI-VA-gty"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -983,10 +1058,10 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tht-mj-bU6">
-                                <rect key="frame" x="112" y="310" width="376" height="30"/>
+                                <rect key="frame" x="20" y="310" width="560" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bk-5w-JlE">
                                 <rect key="frame" x="270" y="405" width="61" height="34"/>
@@ -1040,7 +1115,7 @@
                             <constraint firstItem="DQa-7z-CQc" firstAttribute="top" secondItem="CKX-lN-mNo" secondAttribute="top" constant="26" id="Xye-OB-Gg2"/>
                             <constraint firstItem="DQa-7z-CQc" firstAttribute="centerX" secondItem="7im-jh-Xff" secondAttribute="centerX" id="cR4-YX-5tC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CKX-lN-mNo" secondAttribute="trailing" constant="-188" id="prv-WU-lea"/>
-                            <constraint firstItem="Tht-mj-bU6" firstAttribute="leading" secondItem="7im-jh-Xff" secondAttribute="leadingMargin" constant="92" id="uoc-vo-Idm"/>
+                            <constraint firstItem="Tht-mj-bU6" firstAttribute="leading" secondItem="7im-jh-Xff" secondAttribute="leadingMargin" id="uoc-vo-Idm"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -1373,10 +1448,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="foL-zu-uHU"/>
         <segue reference="zCh-as-afr"/>
-        <segue reference="K1X-fa-JhY"/>
+        <segue reference="uwq-Hg-fvs"/>
         <segue reference="c4W-RP-S8V"/>
-        <segue reference="9qQ-OX-Sa4"/>
-        <segue reference="x0H-M3-tAA"/>
+        <segue reference="t7V-KZ-T5I"/>
+        <segue reference="6D1-ch-JZ4"/>
         <segue reference="afT-ns-bji"/>
     </inferredMetricsTieBreakers>
 </document>

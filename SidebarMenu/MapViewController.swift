@@ -111,6 +111,12 @@ class MapViewController: UIViewController {
 
     }
     
+    @IBAction func Fulfilled(sender: UIButton) {
+        
+        wordInfo(sender)
+        
+    }
+    
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
     override func viewDidLoad() {
@@ -152,6 +158,8 @@ class MapViewController: UIViewController {
         presentViewController(alert, animated: true, completion: nil)
     }
     
+    
+    // Random Number Generator with upper and lower bounds inclusive
     func randRange (lower : Int , upper : Int) -> Int {
         let difference = upper - lower
         return Int(Float(rand())/Float(RAND_MAX) * Float(difference + 1)) + lower
