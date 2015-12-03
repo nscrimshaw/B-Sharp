@@ -10,7 +10,13 @@ import UIKit
 
 class NewsTableViewController: UITableViewController {
     @IBOutlet var menuButton:UIBarButtonItem!
-    @IBOutlet var extraButton:UIBarButtonItem!
+    
+    var numberOfCells = 6
+    
+    var heartButtonCt: [String] = ["14", "23", "30", "5", "19", "2", "44"]
+    var community: [String] = ["Just hit a high A!", "Just finished learning a new song for my GF. Going to propose this weekend...", "I love how many notes I get to play on any given piece... not,", "So excited to perform in downtown Seattle tomorrow! Come jam with me :)", "Love this new banjo I got! Ready to strum.", "Terrified of attempting Clair de Lune tomorrow for my recital :O", "Finally broke out the old trumpet. Can't wait to wake the neighbors lol"]
+    var authorLabel: [String] = ["Natalie", "Jose", "Felicity", "Oliver", "Barry", "John", "Lee",]
+    var imageNames: [String] = ["mic", "guitar", "triangle", "sax", "banjo", "piano", "trumpet"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +26,6 @@ class NewsTableViewController: UITableViewController {
             menuButton.target = revealViewController()
             menuButton.action = "revealToggle:"
 
-            revealViewController().rightViewRevealWidth = 150
-            extraButton.target = revealViewController()
-            extraButton.action = "rightRevealToggle:"
 
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
@@ -44,34 +47,23 @@ class NewsTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 3
+        return numberOfCells
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+      
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! NewsTableViewCell
 
         // Configure the cell...
-        if indexPath.row == 0 {
-            cell.postImageView.image = UIImage(named: "watchkit-intro")
-            cell.postTitleLabel.text = "WatchKit Introduction: Building a Simple Guess Game"
-            cell.authorLabel.text = "Simon Ng"
-            cell.authorImageView.image = UIImage(named: "author")
+       
+          //  cell.postImageView.image = UIImage(named: "watchkit-intro")
+            cell.heartButton.setTitle(heartButtonCt[indexPath.row], forState: UIControlState.Normal)
+            cell.postTitleLabel.text = community[indexPath.row]
+            cell.authorLabel.text = authorLabel[indexPath.row]
+            cell.authorImageView.image = UIImage(named: imageNames[indexPath.row])
 
-        } else if indexPath.row == 1 {
-            cell.postImageView.image = UIImage(named: "custom-segue-featured-1024")
-            cell.postTitleLabel.text = "Building a Chat App in Swift Using Multipeer Connectivity Framework"
-            cell.authorLabel.text = "Gabriel Theodoropoulos"
-            cell.authorImageView.image = UIImage(named: "appcoda-300")
-            
-        } else {
-            cell.postImageView.image = UIImage(named: "webkit-featured")
-            cell.postTitleLabel.text = "A Beginner’s Guide to Animated Custom Segues in iOS 8"
-            cell.authorLabel.text = "Gabriel Theodoropoulos"
-            cell.authorImageView.image = UIImage(named: "appcoda-300")
-            
-        }
-
+        
         return cell
     }
     
