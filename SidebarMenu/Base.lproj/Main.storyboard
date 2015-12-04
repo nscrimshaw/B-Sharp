@@ -58,28 +58,28 @@
                                     <constraint firstAttribute="height" constant="97" id="fpp-ds-ooa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Ram Dass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHK-Lo-sNL">
                                 <rect key="frame" x="419" y="156" width="77" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.45342911670000002" green="0.57052748669999997" blue="0.85984689599999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwe-UE-3l7">
                                 <rect key="frame" x="45" y="206" width="92" height="47"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRV-GN-hFu">
                                 <rect key="frame" x="45" y="276" width="92" height="47"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAPPY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRt-BG-LD2">
@@ -89,28 +89,28 @@
                                     <constraint firstAttribute="width" constant="132" id="1b4-0f-inF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours practiced this week" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3mG-kL-78h">
                                 <rect key="frame" x="135" y="209" width="140" height="41"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.45342911670000002" green="0.57052748669999997" blue="0.85984689599999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most common emotion this week:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szB-h9-Lhl">
                                 <rect key="frame" x="171" y="424" width="258" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weekly average satisfaction score" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hx1-og-vFa">
                                 <rect key="frame" x="135" y="279" width="175" height="41"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.45342911670000002" green="0.57052748669999997" blue="0.85984689599999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -584,6 +584,9 @@
                         <barButtonItem key="leftBarButtonItem" image="menu" id="bvR-yD-ToH">
                             <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="sin-8I-nJD">
+                            <color key="tintColor" red="0.2666666667" green="0.76862745099999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="bvR-yD-ToH" id="Rui-eS-C5i"/>
@@ -616,8 +619,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfj-8I-3Bb">
                                                     <rect key="frame" x="19" y="12" width="119" height="36"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="26"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -640,8 +642,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Engage w/ Community" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh3-5S-TMf">
                                                     <rect key="frame" x="61" y="11" width="181" height="31"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -667,8 +668,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Track Progress" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efz-Bb-kny">
                                                     <rect key="frame" x="61" y="6" width="112" height="31"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -694,8 +694,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Music" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="it0-69-JpN">
                                                     <rect key="frame" x="61" y="6" width="99" height="31"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1170,14 +1169,10 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-ui-BZc">
                                 <rect key="frame" x="192" y="193" width="100" height="41"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="B8t-Ne-cV3"/>
-                                    <constraint firstAttribute="height" constant="41" id="hqJ-AU-FYM"/>
-                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Content">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Calm" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="kEx-Qe-Aeb"/>
@@ -1186,14 +1181,14 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzs-od-tDu">
                                 <rect key="frame" x="192" y="242" width="100" height="41"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="cmb-lD-nsD"/>
                                     <constraint firstAttribute="width" constant="100" id="vhu-6X-OYJ"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Nervous">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Nervous" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="sBu-H0-VCZ"/>
@@ -1203,14 +1198,14 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFW-Zx-74s">
                                 <rect key="frame" x="308" y="193" width="100" height="40"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="aLi-G7-bY3"/>
                                     <constraint firstAttribute="height" constant="40" id="sM4-9e-cOE"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Sad">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Sad" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="GAc-34-cgd"/>
@@ -1218,17 +1213,17 @@
                                     <action selector="emotion3:" destination="dVR-J6-EXi" eventType="touchUpInside" id="3MS-SW-5QE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5T-2q-KCe">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5T-2q-KCe">
                                 <rect key="frame" x="192" y="344" width="100" height="40"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="3Jk-Ep-Dxy"/>
                                     <constraint firstAttribute="width" constant="100" id="7m2-II-xlb"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Relief">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Relief" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="iZD-pO-Rqo"/>
@@ -1239,14 +1234,14 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hd-xb-MsF">
                                 <rect key="frame" x="310" y="344" width="98" height="40"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="BiY-lH-YtQ"/>
                                     <constraint firstAttribute="width" constant="98" id="Yz0-KC-DZj"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Angry">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Frustration" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="H0Q-XA-5iq"/>
@@ -1258,14 +1253,14 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADa-N9-QXb">
                                 <rect key="frame" x="308" y="243" width="98" height="40"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="98" id="Fg2-uj-z8p"/>
                                     <constraint firstAttribute="height" constant="40" id="epE-J0-1HI"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Happy">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Happy" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="oiq-11-U6Z"/>
@@ -1279,14 +1274,14 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yti-Oj-u2N">
                                 <rect key="frame" x="192" y="294" width="100" height="40"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="J2z-rX-8dB"/>
                                     <constraint firstAttribute="height" constant="40" id="lfD-7j-1eI"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Pride">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Proud" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="oGP-CS-M3i"/>
@@ -1311,27 +1306,20 @@
                                     <color key="titleColor" red="0.48627450979999998" green="0.83921568629999999" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="PrM-wg-AZO"/>
-                                    <action selector="emotion4:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Y1O-1v-Lhf"/>
-                                    <action selector="emotion5:" destination="dVR-J6-EXi" eventType="touchUpInside" id="rnW-Wz-XAe"/>
-                                    <action selector="emotion6:" destination="dVR-J6-EXi" eventType="touchUpInside" id="8dn-tF-ioc"/>
-                                    <action selector="emotion7:" destination="dVR-J6-EXi" eventType="touchUpInside" id="ALX-ff-det"/>
-                                    <action selector="emotion8:" destination="dVR-J6-EXi" eventType="touchUpInside" id="HKm-g9-KgT"/>
-                                    <action selector="emotion9:" destination="dVR-J6-EXi" eventType="touchUpInside" id="jcx-zR-krL"/>
                                     <segue destination="sE8-Cy-yWP" kind="show" id="9la-2V-jQK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yia-FP-viZ">
                                 <rect key="frame" x="310" y="294" width="98" height="38"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="98" id="1Gn-Nd-xCg"/>
                                     <constraint firstAttribute="height" constant="38" id="xFA-D6-gfa"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Afraid">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Afraid" backgroundImage="25x25 Button_navy ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.8542025862" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="emotion10:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Mjj-IR-kLr"/>
@@ -1344,49 +1332,33 @@
                                     <action selector="emotion9:" destination="dVR-J6-EXi" eventType="touchUpInside" id="Dpg-Jg-hwd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJv-2k-fPm">
-                                <rect key="frame" x="250" y="392" width="100" height="41"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="CAC-Q9-StU" userLabel="height = 40"/>
-                                    <constraint firstAttribute="width" constant="100" id="Ppd-zc-rp8"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="2"/>
-                                <state key="normal" title="Irritated">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="emotion1:" destination="dVR-J6-EXi" eventType="touchUpInside" id="7Ij-Ad-fmT"/>
-                                    <action selector="emotion2:" destination="dVR-J6-EXi" eventType="touchUpInside" id="1Sh-25-v4g"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.92549019610000005" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Wbl-ui-BZc" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="129" id="086-nu-eEl"/>
                             <constraint firstItem="ch0-nP-d2b" firstAttribute="top" secondItem="ms7-IO-XYl" secondAttribute="bottom" constant="19" id="17p-Yd-jtL"/>
                             <constraint firstItem="LFW-Zx-74s" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="129" id="4k8-am-j36"/>
+                            <constraint firstItem="Wbl-ui-BZc" firstAttribute="top" secondItem="LFW-Zx-74s" secondAttribute="top" id="6Rl-0O-Lav"/>
                             <constraint firstItem="Yti-Oj-u2N" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="230" id="8c1-of-I5M"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ms7-IO-XYl" secondAttribute="trailing" constant="219" id="Fnr-Vc-3jW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LFW-Zx-74s" secondAttribute="trailing" constant="172" id="Hd6-yV-Rql"/>
+                            <constraint firstItem="Wbl-ui-BZc" firstAttribute="top" secondItem="RHb-Ws-gOd" secondAttribute="bottom" constant="36" id="Ka1-DX-ned"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Yia-FP-viZ" secondAttribute="trailing" constant="172" id="LsA-D2-Eo0"/>
                             <constraint firstItem="Dzs-od-tDu" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="178" id="MEM-kr-F5n"/>
                             <constraint firstItem="ADa-N9-QXb" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="179" id="SLM-hk-3AY"/>
-                            <constraint firstItem="CJv-2k-fPm" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="328" id="WuP-1E-vlV"/>
+                            <constraint firstItem="Dzs-od-tDu" firstAttribute="top" secondItem="Wbl-ui-BZc" secondAttribute="bottom" constant="8" symbolic="YES" id="X8i-dZ-6Qe"/>
                             <constraint firstItem="F5T-2q-KCe" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="280" id="YEb-ta-H50"/>
-                            <constraint firstItem="CJv-2k-fPm" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="bIR-60-CoF"/>
                             <constraint firstItem="ms7-IO-XYl" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="d8U-5v-Ogn"/>
                             <constraint firstItem="Ddh-Uw-oa3" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="98" id="dF6-fg-baf"/>
                             <constraint firstItem="Ddh-Uw-oa3" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="35" id="eAB-IF-Mlu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ADa-N9-QXb" secondAttribute="trailing" constant="174" id="ekI-JD-A3E"/>
                             <constraint firstItem="Yia-FP-viZ" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="230" id="eyz-E5-7jE"/>
+                            <constraint firstItem="Wbl-ui-BZc" firstAttribute="leading" secondItem="Dzs-od-tDu" secondAttribute="leading" id="g81-1i-LLa"/>
                             <constraint firstItem="8hd-xb-MsF" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="280" id="kxd-Xt-qCd"/>
                             <constraint firstItem="F5T-2q-KCe" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="172" id="mqg-Ap-uza"/>
                             <constraint firstItem="Yti-Oj-u2N" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="172" id="nca-6o-sjr"/>
                             <constraint firstItem="RHb-Ws-gOd" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="qwm-hj-ztX"/>
-                            <constraint firstItem="Wbl-ui-BZc" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="172" id="sbd-Ul-WjC"/>
+                            <constraint firstItem="Wbl-ui-BZc" firstAttribute="trailing" secondItem="Dzs-od-tDu" secondAttribute="trailing" id="tQx-ET-NyV"/>
                             <constraint firstItem="Ddh-Uw-oa3" firstAttribute="centerX" secondItem="hWp-4K-6hV" secondAttribute="centerX" id="uXW-Mg-zhk"/>
                             <constraint firstItem="RHb-Ws-gOd" firstAttribute="top" secondItem="h8Y-Xp-GOz" secondAttribute="bottom" constant="71" id="w1C-Nn-jb7"/>
                             <constraint firstItem="Dzs-od-tDu" firstAttribute="leading" secondItem="hWp-4K-6hV" secondAttribute="leadingMargin" constant="172" id="xkD-AF-yg6"/>
@@ -1437,8 +1409,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="25x25 Button_navy " width="104" height="70"/>
         <image name="75x75 Button" width="105" height="70"/>
-        <image name="Calendar B sharp" width="768" height="1024"/>
+        <image name="Calendar B sharp" width="6398" height="8533"/>
         <image name="blank-space2" width="980" height="1320"/>
         <image name="community25x25" width="50" height="50"/>
         <image name="heart" width="512" height="512"/>
@@ -1451,9 +1424,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="foL-zu-uHU"/>
-        <segue reference="9qQ-OX-Sa4"/>
+        <segue reference="t7V-KZ-T5I"/>
+        <segue reference="8g6-jo-3y6"/>
         <segue reference="EDY-ln-Kvb"/>
-        <segue reference="rk4-fV-1n1"/>
         <segue reference="x0H-M3-tAA"/>
         <segue reference="afT-ns-bji"/>
     </inferredMetricsTieBreakers>
