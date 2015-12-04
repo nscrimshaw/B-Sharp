@@ -32,6 +32,21 @@ class NewsTableViewController: UITableViewController {
         
         }
     }
+    
+    
+    @IBAction func HeartButton(sender: UIButton) {
+        
+        var titleString = sender.titleForState(UIControlState.Normal);
+        
+        var titleNumber = Int(titleString!);
+        
+        
+        titleNumber = titleNumber! + 1;
+        
+        titleString = String(titleNumber!);
+        
+        sender.setTitle(titleString, forState: UIControlState.Normal)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

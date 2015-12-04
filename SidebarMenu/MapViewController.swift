@@ -10,6 +10,9 @@ import UIKit
 
 class MapViewController: UIViewController {
     var goals: [String] = ["Hit high notes on 20th measure", "Take criticism really well", "Learn a new song", "Learn new set of chords", "Polish song for performance"]
+    
+    var emotions: [String] = ["Sad", "Angry", "Mad", "Happy", "Calm", "Nervous", "Excited", "Determined", "Focused"]
+    
     @IBAction func wordcloud_1(sender: UIButton) {
         
         wordInfo(sender)
@@ -117,6 +120,48 @@ class MapViewController: UIViewController {
         
     }
     
+    @IBAction func One(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    @IBAction func Three(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    @IBAction func Eight(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    @IBAction func Ten(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    
+    @IBAction func Fifteen(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    @IBAction func Nineteen(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    @IBAction func TwentyTwo(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    @IBAction func TwentySix(sender: UIButton) {
+        
+        calendarInfo(sender)
+    }
+    
+    
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
     override func viewDidLoad() {
@@ -136,7 +181,7 @@ class MapViewController: UIViewController {
     
     func wordInfo(sender: UIButton ){
         let alert = UIAlertController(title: sender.currentTitle,
-            message: ("Used 3 times this week\n" + "Used 12 times this month\r\n" + "\r\nMonthly breakdown by week day:\n" + "Monday:2\n" + "Tuesday:4\n" + "Wedneday:3\n" + "Thursday:1\n" + "Friday:1\n" + "Saturday:0\n" + "Sunday:1\n"),
+            message: ("Used 3 times this week\n" + "Used 12 times this month\r\n" + "\r\nMonthly breakdown by week day:\n" + "Monday: 2\n" + "Tuesday: 4\n" + "Wedneday: 3\n" + "Thursday: 1\n" + "Friday: 1\n" + "Saturday: 0\n" + "Sunday: 1\n"),
             preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Done", style: .Cancel , handler: nil)
@@ -148,8 +193,12 @@ class MapViewController: UIViewController {
     
     // make sure button title is date!
     func calendarInfo(sender: UIButton ){
-        let alert = UIAlertController(title: sender.currentTitle,
-            message: ("Goal: " + goals[randRange(0,upper: 5)] ),
+        var emotionsBefore = emotions[randRange(0,upper: 8)] + ", " + emotions[randRange(0,upper: 8)]
+        var emotionsAfter = emotions[randRange(0,upper: 8)] + ", " + emotions[randRange(0,upper: 8)]
+        var goal = goals[randRange(0,upper: 4)]
+        
+        let alert = UIAlertController(title: "Day Summary",
+            message: ("Goal: " + goal + "\r\nEmotions before practice: " + emotionsBefore + "\r\nEmotions after practice: " + emotionsAfter + "\r\nSatisfaction Score: 7" ),
             preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Done", style: .Cancel , handler: nil)
