@@ -9,6 +9,9 @@
 import UIKit
 
 class NewPostViewController: UIViewController {
+    
+    @IBOutlet weak var Message: UITextField!
+    @IBOutlet weak var name: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +25,14 @@ class NewPostViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func propic(sender: UIButton) {
+    }
 
+    @IBAction func postButton(sender: UIButton) {
+        
+    }
+   
+    
     /*
     // MARK: - Navigation
 
